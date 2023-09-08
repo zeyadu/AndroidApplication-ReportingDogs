@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5c017c"
+    tools:context=".DogsListRecycle">
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/frameLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+    <!--</FrameLayout>-->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#A43EC9"
+        app:layout_constraintBottom_toTopOf="@+id/dogList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084">
+
+        <TextView
+            android:id="@+id/custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="Dogs looking for Home"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/takemetoprofile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:paddingHorizontal="5dp"
+            android:src="@drawable/profile" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dogList"
+        android:layout_width="415dp"
+        android:layout_height="605dp"
+        android:background="#5c017c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/Reportbutton"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/button_login"
+        android:gravity="center"
+        android:text="Report"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

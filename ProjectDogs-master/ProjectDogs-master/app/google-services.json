@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "500436574323",
+    "firebase_url": "https://project-dogs-ed9f8-default-rtdb.firebaseio.com",
+    "project_id": "project-dogs-ed9f8",
+    "storage_bucket": "project-dogs-ed9f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500436574323:android:c7a98e1ab49f4b046dca06",
+        "android_client_info": {
+          "package_name": "com.example.projectdogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500436574323-426r7eddvtmkkvol0bbjmduhhvbidsl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT9-WjtwrXY6J7zNySTX6zib6TK1RO8MY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500436574323-426r7eddvtmkkvol0bbjmduhhvbidsl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
